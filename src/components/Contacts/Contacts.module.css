@@ -1,0 +1,23 @@
+
+.btn{
+    display: inline;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    max-height: 30px;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.text{
+    
+    font-size: 16px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

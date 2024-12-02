@@ -1,0 +1,34 @@
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.addBtn{
+    margin-top: 30px;
+    max-width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.addBtn:hover{
+    background-color: greenyellow
+}
+
+.title{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 18px
+}
+
+.field{
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
